@@ -15,9 +15,10 @@
 # (uncomment the files you don't need)        #
 ###############################################
 
-#.android
+.android
 #.AndroidStudio*/
-#Android/Sdk
+Android-SDK
+.codeintel
 #.gradle
 #.gvm
 #.grails/
@@ -25,8 +26,8 @@
 #.kde/share/apps/nepomuk
 #.local/share/notbit
 #.local/libvirt
-#.vagrant
-#.vagrant.d
+.vagrant
+.vagrant.d
 #.wine
 #.twister
 #/twister
@@ -122,7 +123,7 @@
 .mozilla/firefox/*/Cache
 # in case Fx crashes dumps will be stored in this
 .mozilla/firefox/*/minidumps
-# session-specific 
+# session-specific
 .mozilla/firefox/*/.parentlock
 # phishing database, recreated
 .mozilla/firefox/*/urlclassifier3.sqlite
@@ -147,7 +148,7 @@
 .mozilla/seamonkey/*/Cache
 # in case Fx crashes dumps will be stored in this
 .mozilla/seamonkey/*/minidumps
-# session-specific 
+# session-specific
 .mozilla/seamonkey/*/.parentlock
 # blacklisted extensions
 .mozilla/seamonkey/*/blocklist.xml
