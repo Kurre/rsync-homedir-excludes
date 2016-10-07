@@ -18,6 +18,7 @@
 .android
 #.AndroidStudio*/
 Android-SDK
+.ccache
 .codeintel
 #.gradle
 #.gvm
