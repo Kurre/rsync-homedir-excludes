@@ -6,8 +6,8 @@
 # Version: 2015-08-30
 #
 # #Usage:
-#    USER=<homedir username here>
-#    rsync -aP --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
+#    USER=tommi
+#    rsync -aP --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/Backups/home/$USER/
 
 
 ###############################################
